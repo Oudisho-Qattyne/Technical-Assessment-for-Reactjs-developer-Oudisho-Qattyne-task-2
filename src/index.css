@@ -12,14 +12,19 @@
   --color-secondary: #9198a1; /* A custom gray */
   --color-custom-gray: #212830; /* A custom gray */
   --color-custom-gray-hover: #262c36; /* A custom gray */
+  --color-custom-gray-border: #3d444d; /* A custom gray */
   --color-accent: #ff4500; /* A custom orange */
   --color-dark:#0d1117;
+  --color-dark-foreground:#151b23;
+  --color-leight: #f6f8fa;
+  --color-leight-foreground: #ffffff;
   --color-custom-green : #238636;
   --color-custom-green-hover : #29903b;
   --color-bug-red : #32161e;
   --color-bug-red-text : #fe9b8c;
   --color-developertool-yellow : #3e3a1e;
   --color-developertool-yellow-text : #e3ca04;
+  --color-custom-purple : #ab7df8;
 
   --color-background: light-dark(#ffffff, #0d1117);
   --color-foreground: light-dark(#0f172a, #f8fafc);

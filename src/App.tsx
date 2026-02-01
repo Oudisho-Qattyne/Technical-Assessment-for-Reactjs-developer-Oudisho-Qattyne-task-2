@@ -1,5 +1,6 @@
 import './App.css'
 import ThemeToggle from './components/ThemeToggle'
+import Issues from './pages/issues/Issues'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <ThemeToggle/>
+    <Issues/>
     </>
   )
 }
