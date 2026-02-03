@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Roboto;
+  src: url('/src/assets/fonts/Roboto-Regular.ttf');
+}
+
+
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 :root {
@@ -8,8 +14,10 @@
   color-scheme: dark;
 }
 @theme{
+  --font-roboto : Roboto, "sans-serif" ;
   --color-primary: #007bff; /* A custom blue */
-  --color-secondary: #9198a1; /* A custom gray */
+  --color-secondary: #9198a1; 
+  --color-custom-gray-border2: #f7f7f7; /* A custom gray */
   --color-custom-gray: #212830; /* A custom gray */
   --color-custom-gray-hover: #262c36; /* A custom gray */
   --color-custom-gray-border: #3d444d; /* A custom gray */
@@ -33,7 +41,7 @@
 :root {
   --background-color: #ffffff; /* Light mode background */
   --text-color: #000000;       /* Light mode text color */
-
+  
 
 }
 
@@ -41,6 +49,52 @@
 body {
   background-color: var(--color-background);
   color: var(--color-foreground);
+  font-family: var(--font-roboto);
  
 }
 
+/* CSS for sliding animation */
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-left {
+  animation: slide-left 0.5s ease-in-out;
+}
+
+.slide-right {
+  animation: slide-right 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.active-bounce {
+  animation: bounce 0.3s ease-in-out;
+}

@@ -1,0 +1,321 @@
+export const dummyChats = [
+    {
+    id: 1,
+    otherPerson: {
+      name: "James Wilson",
+      avatar: "https://i.pravatar.cc/150?img=11",
+      isOnline: true
+    },
+    messages: [
+      { id: "1_1", text: "Hey there! How's the photography project going?", sender: "other", timestamp: new Date("2025-01-20T10:30:00"), isRead: true },
+      { id: "1_2", text: "It's going well! Just finished editing the landscape shots.", sender: "me", timestamp: new Date("2025-01-20T10:32:00"), isRead: true },
+      { id: "1_3", text: "Nice! Would love to see them.", sender: "other", timestamp: new Date("2025-01-20T10:35:00"), isRead: true },
+      { id: "1_4", text: "I'll send them over this afternoon.", sender: "me", timestamp: new Date("2025-01-20T10:36:00"), isRead: true },
+      { id: "1_5", text: "Perfect! Looking forward to it.", sender: "other", timestamp: new Date("2025-01-20T10:40:00"), isRead: true },
+      { id: "1_6", text: "By the way, are you free for a shoot this weekend?", sender: "other", timestamp: new Date("2025-01-20T11:00:00"), isRead: true },
+      { id: "1_7", text: "Saturday morning works for me!", sender: "me", timestamp: new Date("2025-01-20T11:05:00"), isRead: true },
+      { id: "1_8", text: "Great! Let's meet at the park at 8 AM.", sender: "other", timestamp: new Date("2025-01-20T11:10:00"), isRead: true },
+      { id: "1_9", text: "Sounds good. Bring your wide-angle lens.", sender: "me", timestamp: new Date("2025-01-20T11:12:00"), isRead: true },
+      { id: "1_10", text: "Will do! The golden hour should be amazing.", sender: "other", timestamp: new Date("2025-01-20T11:15:00"), isRead: true },
+      { id: "1_11", text: "Agreed. The weather forecast looks perfect.", sender: "me", timestamp: new Date("2025-01-20T14:00:00"), isRead: true },
+      { id: "1_12", text: "Just sent you the landscape photos. Let me know what you think!", sender: "me", timestamp: new Date("2025-01-20T15:30:00"), isRead: true },
+      { id: "1_13", text: "These are incredible! The lighting is perfect.", sender: "other", timestamp: new Date("2025-01-20T16:00:00"), isRead: true },
+      { id: "1_14", text: "Thank you! The morning fog really helped.", sender: "me", timestamp: new Date("2025-01-20T16:05:00"), isRead: true },
+      { id: "1_15", text: "What editing software do you use?", sender: "other", timestamp: new Date("2025-01-20T16:10:00"), isRead: true },
+      { id: "1_16", text: "Mostly Lightroom with some Photoshop for cleanup.", sender: "me", timestamp: new Date("2025-01-20T16:15:00"), isRead: true },
+      { id: "1_17", text: "Cool. I've been meaning to learn Photoshop better.", sender: "other", timestamp: new Date("2025-01-21T09:00:00"), isRead: true },
+      { id: "1_18", text: "I can share some tutorials that helped me.", sender: "me", timestamp: new Date("2025-01-21T09:05:00"), isRead: true },
+      { id: "1_19", text: "That would be awesome!", sender: "other", timestamp: new Date("2025-01-21T09:10:00"), isRead: true },
+      { id: "1_20", text: "Sending them now. Let me know if you have questions!", sender: "me", timestamp: new Date("2025-01-21T09:15:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-21T09:15:00")
+  },
+  {
+    id: 2,
+    otherPerson: {
+      name: "Sarah Chen",
+      avatar: "https://i.pravatar.cc/150?img=12",
+      isOnline: false
+    },
+    messages: [
+      { id: "2_1", text: "Hi! Are you available for a portrait session next week?", sender: "other", timestamp: new Date("2025-01-18T14:00:00"), isRead: true },
+      { id: "2_2", text: "Yes, I have Thursday afternoon open.", sender: "me", timestamp: new Date("2025-01-18T14:05:00"), isRead: true },
+      { id: "2_3", text: "Perfect! 2 PM works for you?", sender: "other", timestamp: new Date("2025-01-18T14:10:00"), isRead: true },
+      { id: "2_4", text: "2 PM works great. Studio or outdoor?", sender: "me", timestamp: new Date("2025-01-18T14:12:00"), isRead: true },
+      { id: "2_5", text: "I was thinking outdoor with natural light.", sender: "other", timestamp: new Date("2025-01-18T14:15:00"), isRead: true },
+      { id: "2_6", text: "Good choice. The botanical garden has great spots.", sender: "me", timestamp: new Date("2025-01-18T14:20:00"), isRead: true },
+      { id: "2_7", text: "Love that idea! See you Thursday.", sender: "other", timestamp: new Date("2025-01-18T14:25:00"), isRead: true },
+      { id: "2_8", text: "Looking forward to it!", sender: "me", timestamp: new Date("2025-01-18T14:30:00"), isRead: true },
+      { id: "2_9", text: "Quick question: what should I wear?", sender: "other", timestamp: new Date("2025-01-19T10:00:00"), isRead: true },
+      { id: "2_10", text: "Solid colors work best, avoid busy patterns.", sender: "me", timestamp: new Date("2025-01-19T10:05:00"), isRead: true },
+      { id: "2_11", text: "Got it. Thanks!", sender: "other", timestamp: new Date("2025-01-19T10:10:00"), isRead: true },
+      { id: "2_12", text: "See you tomorrow at 2!", sender: "other", timestamp: new Date("2025-01-22T09:00:00"), isRead: true },
+      { id: "2_13", text: "Can't wait! The weather looks perfect.", sender: "me", timestamp: new Date("2025-01-22T09:05:00"), isRead: true },
+      { id: "2_14", text: "Bringing 3 outfits as discussed.", sender: "other", timestamp: new Date("2025-01-22T09:10:00"), isRead: true },
+      { id: "2_15", text: "Perfect. I'll have my 85mm and 50mm lenses.", sender: "me", timestamp: new Date("2025-01-22T09:15:00"), isRead: true },
+      { id: "2_16", text: "Should we reschedule if it rains?", sender: "other", timestamp: new Date("2025-01-22T20:00:00"), isRead: true },
+      { id: "2_17", text: "Forecast shows clear skies, but we have a backup date.", sender: "me", timestamp: new Date("2025-01-22T20:05:00"), isRead: true },
+      { id: "2_18", text: "Good thinking. Fingers crossed!", sender: "other", timestamp: new Date("2025-01-22T20:10:00"), isRead: true },
+      { id: "2_19", text: "See you at the main entrance.", sender: "me", timestamp: new Date("2025-01-22T20:15:00"), isRead: true },
+      { id: "2_20", text: "Will be there!", sender: "other", timestamp: new Date("2025-01-22T20:20:00"), isRead: true }
+    ],
+    unreadCount: 1,
+    lastActivity: new Date("2025-01-22T20:20:00")
+  }, {
+    id: 3,
+    otherPerson: {
+      name: "Marcus Rivera",
+      avatar: "https://i.pravatar.cc/150?img=13",
+      isOnline: true
+    },
+    messages: [
+      { id: "3_1", text: "Hey! I saw your astrophotography shots, they're amazing!", sender: "other", timestamp: new Date("2025-01-15T20:00:00"), isRead: true },
+      { id: "3_2", text: "Thanks! It took a few attempts to get the settings right.", sender: "me", timestamp: new Date("2025-01-15T20:05:00"), isRead: true },
+      { id: "3_3", text: "What ISO were you using?", sender: "other", timestamp: new Date("2025-01-15T20:10:00"), isRead: true },
+      { id: "3_4", text: "ISO 3200, 20 second exposure at f/2.8", sender: "me", timestamp: new Date("2025-01-15T20:15:00"), isRead: true },
+      { id: "3_5", text: "That makes sense. I was using 1600 but the stars weren't as bright.", sender: "other", timestamp: new Date("2025-01-15T20:20:00"), isRead: true },
+      { id: "3_6", text: "Try bumping it up and use a faster lens if you have one.", sender: "me", timestamp: new Date("2025-01-15T20:25:00"), isRead: true },
+      { id: "3_7", text: "I only have the kit lens right now, but saving for a prime.", sender: "other", timestamp: new Date("2025-01-16T09:00:00"), isRead: true },
+      { id: "3_8", text: "The 24mm f/1.4 is worth the investment for astro.", sender: "me", timestamp: new Date("2025-01-16T09:05:00"), isRead: true },
+      { id: "3_9", text: "That's exactly what I've been looking at!", sender: "other", timestamp: new Date("2025-01-16T09:10:00"), isRead: true },
+      { id: "3_10", text: "Let me know when you get it and we can go shooting.", sender: "me", timestamp: new Date("2025-01-16T09:15:00"), isRead: true },
+      { id: "3_11", text: "That would be awesome! There's a dark sky park 2 hours away.", sender: "other", timestamp: new Date("2025-01-16T14:00:00"), isRead: true },
+      { id: "3_12", text: "Perfect spot. Check the moon phase before we go.", sender: "me", timestamp: new Date("2025-01-16T14:05:00"), isRead: true },
+      { id: "3_13", text: "Will do. New moon is next week.", sender: "other", timestamp: new Date("2025-01-16T14:10:00"), isRead: true },
+      { id: "3_14", text: "Let's aim for then. I'll bring my star tracker.", sender: "me", timestamp: new Date("2025-01-16T14:15:00"), isRead: true },
+      { id: "3_15", text: "You have a star tracker? That's next level!", sender: "other", timestamp: new Date("2025-01-16T14:20:00"), isRead: true },
+      { id: "3_16", text: "Yeah, it lets me do longer exposures without star trails.", sender: "me", timestamp: new Date("2025-01-16T14:25:00"), isRead: true },
+      { id: "3_17", text: "Can't wait to see how that works!", sender: "other", timestamp: new Date("2025-01-17T10:00:00"), isRead: true },
+      { id: "3_18", text: "I'll show you the setup. It's easier than it looks.", sender: "me", timestamp: new Date("2025-01-17T10:05:00"), isRead: true },
+      { id: "3_19", text: "Looking forward to it! What time should we meet?", sender: "other", timestamp: new Date("2025-01-17T10:10:00"), isRead: true },
+      { id: "3_20", text: "Let's meet at 6 PM at the park entrance.", sender: "me", timestamp: new Date("2025-01-17T10:15:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-17T10:15:00")
+  },
+  {
+    id: 4,
+    otherPerson: {
+      name: "Olivia Patel",
+      avatar: "https://i.pravatar.cc/150?img=14",
+      isOnline: false
+    },
+    messages: [
+      { id: "4_1", text: "Hi! I need some advice on product photography.", sender: "other", timestamp: new Date("2025-01-19T11:00:00"), isRead: true },
+      { id: "4_2", text: "Sure! What kind of products?", sender: "me", timestamp: new Date("2025-01-19T11:05:00"), isRead: true },
+      { id: "4_3", text: "Mostly jewelry for my online store.", sender: "other", timestamp: new Date("2025-01-19T11:10:00"), isRead: true },
+      { id: "4_4", text: "You'll want a lightbox and macro lens for that.", sender: "me", timestamp: new Date("2025-01-19T11:15:00"), isRead: true },
+      { id: "4_5", text: "I have a lightbox, but the reflections are a problem.", sender: "other", timestamp: new Date("2025-01-19T11:20:00"), isRead: true },
+      { id: "4_6", text: "Use a polarizing filter and shoot at an angle.", sender: "me", timestamp: new Date("2025-01-19T11:25:00"), isRead: true },
+      { id: "4_7", text: "I'll try that. What about lighting?", sender: "other", timestamp: new Date("2025-01-19T11:30:00"), isRead: true },
+      { id: "4_8", text: "Two softboxes at 45 degree angles works best.", sender: "me", timestamp: new Date("2025-01-19T11:35:00"), isRead: true },
+      { id: "4_9", text: "Thanks! Can you recommend a good macro lens?", sender: "other", timestamp: new Date("2025-01-19T15:00:00"), isRead: true },
+      { id: "4_10", text: "The 100mm f/2.8 macro is excellent for jewelry.", sender: "me", timestamp: new Date("2025-01-19T15:05:00"), isRead: true },
+      { id: "4_11", text: "I'll look into it. My budget is around $500.", sender: "other", timestamp: new Date("2025-01-19T15:10:00"), isRead: true },
+      { id: "4_12", text: "Check the used market. You can find good deals.", sender: "me", timestamp: new Date("2025-01-19T15:15:00"), isRead: true },
+      { id: "4_13", text: "Great tip! Found one for $450.", sender: "other", timestamp: new Date("2025-01-20T09:00:00"), isRead: true },
+      { id: "4_14", text: "That's a steal! Make sure it's in good condition.", sender: "me", timestamp: new Date("2025-01-20T09:05:00"), isRead: true },
+      { id: "4_15", text: "Seller says it's like new with original box.", sender: "other", timestamp: new Date("2025-01-20T09:10:00"), isRead: true },
+      { id: "4_16", text: "Go for it! It'll make a huge difference.", sender: "me", timestamp: new Date("2025-01-20T09:15:00"), isRead: true },
+      { id: "4_17", text: "Thanks for all the help! I'll send you some test shots.", sender: "other", timestamp: new Date("2025-01-20T14:00:00"), isRead: true },
+      { id: "4_18", text: "Please do! Happy to give feedback.", sender: "me", timestamp: new Date("2025-01-20T14:05:00"), isRead: true },
+      { id: "4_19", text: "Just got the lens! The clarity is incredible.", sender: "other", timestamp: new Date("2025-01-21T16:00:00"), isRead: true },
+      { id: "4_20", text: "Glad to hear it! Practice makes perfect.", sender: "me", timestamp: new Date("2025-01-21T16:05:00"), isRead: true }
+    ],
+    unreadCount: 2,
+    lastActivity: new Date("2025-01-21T16:05:00")
+  },
+  {
+    id: 5,
+    otherPerson: {
+      name: "David Kim",
+      avatar: "https://i.pravatar.cc/150?img=15",
+      isOnline: true
+    },
+    messages: [
+      { id: "5_1", text: "Hey, are you interested in a collaborative project?", sender: "other", timestamp: new Date("2025-01-18T13:00:00"), isRead: true },
+      { id: "5_2", text: "Possibly! What do you have in mind?", sender: "me", timestamp: new Date("2025-01-18T13:05:00"), isRead: true },
+      { id: "5_3", text: "A photo series on urban architecture with human elements.", sender: "other", timestamp: new Date("2025-01-18T13:10:00"), isRead: true },
+      { id: "5_4", text: "That sounds interesting. Tell me more.", sender: "me", timestamp: new Date("2025-01-18T13:15:00"), isRead: true },
+      { id: "5_5", text: "I want to contrast modern buildings with street portraits.", sender: "other", timestamp: new Date("2025-01-18T13:20:00"), isRead: true },
+      { id: "5_6", text: "I like the concept. Location ideas?", sender: "me", timestamp: new Date("2025-01-18T13:25:00"), isRead: true },
+      { id: "5_7", text: "Downtown area. There's great glass and steel buildings.", sender: "other", timestamp: new Date("2025-01-18T13:30:00"), isRead: true },
+      { id: "5_8", text: "And old brick warehouses for contrast?", sender: "me", timestamp: new Date("2025-01-18T13:35:00"), isRead: true },
+      { id: "5_9", text: "Exactly! You read my mind.", sender: "other", timestamp: new Date("2025-01-19T10:00:00"), isRead: true },
+      { id: "5_10", text: "We could shoot over a weekend. Morning and evening light.", sender: "me", timestamp: new Date("2025-01-19T10:05:00"), isRead: true },
+      { id: "5_11", text: "Perfect. I can handle the architecture shots.", sender: "other", timestamp: new Date("2025-01-19T10:10:00"), isRead: true },
+      { id: "5_12", text: "And I'll take the portraits. Need to find models.", sender: "me", timestamp: new Date("2025-01-19T10:15:00"), isRead: true },
+      { id: "5_13", text: "I know a few people who might be interested.", sender: "other", timestamp: new Date("2025-01-19T10:20:00"), isRead: true },
+      { id: "5_14", text: "Great! Let's make a mood board first.", sender: "me", timestamp: new Date("2025-01-19T10:25:00"), isRead: true },
+      { id: "5_15", text: "I'll put one together this week.", sender: "other", timestamp: new Date("2025-01-19T10:30:00"), isRead: true },
+      { id: "5_16", text: "Looking forward to seeing it. This could be portfolio material.", sender: "me", timestamp: new Date("2025-01-19T10:35:00"), isRead: true },
+      { id: "5_17", text: "That's the goal! Maybe even an exhibition.", sender: "other", timestamp: new Date("2025-01-20T14:00:00"), isRead: true },
+      { id: "5_18", text: "One step at a time. Let's nail the photos first.", sender: "me", timestamp: new Date("2025-01-20T14:05:00"), isRead: true },
+      { id: "5_19", text: "Agreed. Starting with mood board. Talk soon!", sender: "other", timestamp: new Date("2025-01-20T14:10:00"), isRead: true },
+      { id: "5_20", text: "Sounds good! Keep me updated.", sender: "me", timestamp: new Date("2025-01-20T14:15:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-20T14:15:00")
+  },
+  {
+    id: 6,
+    otherPerson: {
+      name: "Emma Thompson",
+      avatar: "https://i.pravatar.cc/150?img=16",
+      isOnline: false
+    },
+    messages: [
+      { id: "6_1", text: "Help! My photos keep coming out blurry in low light.", sender: "other", timestamp: new Date("2025-01-22T19:00:00"), isRead: true },
+      { id: "6_2", text: "What camera settings are you using?", sender: "me", timestamp: new Date("2025-01-22T19:05:00"), isRead: true },
+      { id: "6_3", text: "Auto mode. I'm new to this.", sender: "other", timestamp: new Date("2025-01-22T19:10:00"), isRead: true },
+      { id: "6_4", text: "Switch to manual or aperture priority. Use wider aperture.", sender: "me", timestamp: new Date("2025-01-22T19:15:00"), isRead: true },
+      { id: "6_5", text: "How do I do that? It's confusing.", sender: "other", timestamp: new Date("2025-01-22T19:20:00"), isRead: true },
+      { id: "6_6", text: "Set your camera to 'A' or 'Av' mode. Choose lowest f-number.", sender: "me", timestamp: new Date("2025-01-22T19:25:00"), isRead: true },
+      { id: "6_7", text: "Okay, I see f/3.5 is the lowest.", sender: "other", timestamp: new Date("2025-01-22T19:30:00"), isRead: true },
+      { id: "6_8", text: "That's a start. Also increase ISO to 800 or 1600.", sender: "me", timestamp: new Date("2025-01-22T19:35:00"), isRead: true },
+      { id: "6_9", text: "Won't that make it grainy?", sender: "other", timestamp: new Date("2025-01-22T19:40:00"), isRead: true },
+      { id: "6_10", text: "Some grain is better than blur. Or use a tripod.", sender: "me", timestamp: new Date("2025-01-22T19:45:00"), isRead: true },
+      { id: "6_11", text: "I have a small tripod. Should I use it indoors?", sender: "other", timestamp: new Date("2025-01-22T20:00:00"), isRead: true },
+      { id: "6_12", text: "Definitely! Tripod lets you use slower shutter speed.", sender: "me", timestamp: new Date("2025-01-22T20:05:00"), isRead: true },
+      { id: "6_13", text: "Trying it now... much better! Thank you!", sender: "other", timestamp: new Date("2025-01-22T20:30:00"), isRead: true },
+      { id: "6_14", text: "Great! Practice makes perfect.", sender: "me", timestamp: new Date("2025-01-22T20:35:00"), isRead: true },
+      { id: "6_15", text: "Any other tips for indoor photography?", sender: "other", timestamp: new Date("2025-01-23T09:00:00"), isRead: true },
+      { id: "6_16", text: "Use window light. It's soft and flattering.", sender: "me", timestamp: new Date("2025-01-23T09:05:00"), isRead: true },
+      { id: "6_17", text: "I'll try that for my product photos.", sender: "other", timestamp: new Date("2025-01-23T09:10:00"), isRead: true },
+      { id: "6_18", text: "Morning light is best. Avoid direct sun.", sender: "me", timestamp: new Date("2025-01-23T09:15:00"), isRead: true },
+      { id: "6_19", text: "Noted. Thanks for being so patient!", sender: "other", timestamp: new Date("2025-01-23T09:20:00"), isRead: true },
+      { id: "6_20", text: "Anytime! We all start somewhere. Keep shooting!", sender: "me", timestamp: new Date("2025-01-23T09:25:00"), isRead: true }
+    ],
+    unreadCount: 1,
+    lastActivity: new Date("2025-01-23T09:25:00")
+  },
+  {
+    id: 7,
+    otherPerson: {
+      name: "Alex Morgan",
+      avatar: "https://i.pravatar.cc/150?img=17",
+      isOnline: true
+    },
+    messages: [
+      { id: "7_1", text: "Just saw your wildlife photos from the safari. Stunning!", sender: "other", timestamp: new Date("2025-01-16T08:00:00"), isRead: true },
+      { id: "7_2", text: "Thanks! It was an incredible experience.", sender: "me", timestamp: new Date("2025-01-16T08:05:00"), isRead: true },
+      { id: "7_3", text: "What lens did you use for the lion shots?", sender: "other", timestamp: new Date("2025-01-16T08:10:00"), isRead: true },
+      { id: "7_4", text: "200-600mm zoom. You need the reach for safety.", sender: "me", timestamp: new Date("2025-01-16T08:15:00"), isRead: true },
+      { id: "7_5", text: "That's quite the lens! Worth the investment?", sender: "other", timestamp: new Date("2025-01-16T08:20:00"), isRead: true },
+      { id: "7_6", text: "Absolutely for wildlife. Rent one first to try.", sender: "me", timestamp: new Date("2025-01-16T08:25:00"), isRead: true },
+      { id: "7_7", text: "Good idea. I'm going to Yellowstone next month.", sender: "other", timestamp: new Date("2025-01-16T08:30:00"), isRead: true },
+      { id: "7_8", text: "Perfect place for it! Look for bears at dawn.", sender: "me", timestamp: new Date("2025-01-16T08:35:00"), isRead: true },
+      { id: "7_9", text: "Any other tips for Yellowstone photography?", sender: "other", timestamp: new Date("2025-01-16T14:00:00"), isRead: true },
+      { id: "7_10", text: "Geysers at sunset are magical. Use a tripod.", sender: "me", timestamp: new Date("2025-01-16T14:05:00"), isRead: true },
+      { id: "7_11", text: "Noted. How about bison? Safe distance?", sender: "other", timestamp: new Date("2025-01-16T14:10:00"), isRead: true },
+      { id: "7_12", text: "Stay at least 100 yards. They're faster than they look.", sender: "me", timestamp: new Date("2025-01-16T14:15:00"), isRead: true },
+      { id: "7_13", text: "Thanks for the warning! Safety first.", sender: "other", timestamp: new Date("2025-01-16T14:20:00"), isRead: true },
+      { id: "7_14", text: "Exactly. Also, pack warm. It's cold in the mornings.", sender: "me", timestamp: new Date("2025-01-16T14:25:00"), isRead: true },
+      { id: "7_15", text: "Will do. Can't wait to capture the wolves.", sender: "other", timestamp: new Date("2025-01-17T10:00:00"), isRead: true },
+      { id: "7_16", text: "Wolves are elusive. Need patience and luck.", sender: "me", timestamp: new Date("2025-01-17T10:05:00"), isRead: true },
+      { id: "7_17", text: "I'll have both! Thanks for all the advice.", sender: "other", timestamp: new Date("2025-01-17T10:10:00"), isRead: true },
+      { id: "7_18", text: "My pleasure. Share your photos when you're back!", sender: "me", timestamp: new Date("2025-01-17T10:15:00"), isRead: true },
+      { id: "7_19", text: "Absolutely! I'll tag you.", sender: "other", timestamp: new Date("2025-01-17T10:20:00"), isRead: true },
+      { id: "7_20", text: "Looking forward to it. Safe travels!", sender: "me", timestamp: new Date("2025-01-17T10:25:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-17T10:25:00")
+  },
+  {
+    id: 8,
+    otherPerson: {
+      name: "Sophia Rodriguez",
+      avatar: "https://i.pravatar.cc/150?img=18",
+      isOnline: false
+    },
+    messages: [
+      { id: "8_1", text: "I'm organizing a photography workshop. Interested in teaching?", sender: "other", timestamp: new Date("2025-01-14T11:00:00"), isRead: true },
+      { id: "8_2", text: "Possibly! What's the focus and audience?", sender: "me", timestamp: new Date("2025-01-14T11:05:00"), isRead: true },
+      { id: "8_3", text: "Beginner photographers. Basics of composition and lighting.", sender: "other", timestamp: new Date("2025-01-14T11:10:00"), isRead: true },
+      { id: "8_4", text: "Sounds good. When and where?", sender: "me", timestamp: new Date("2025-01-14T11:15:00"), isRead: true },
+      { id: "8_5", text: "Next month at the community center. Saturday all day.", sender: "other", timestamp: new Date("2025-01-14T11:20:00"), isRead: true },
+      { id: "8_6", text: "I can do that. What's the compensation?", sender: "me", timestamp: new Date("2025-01-14T11:25:00"), isRead: true },
+      { id: "8_7", text: "$500 for the day plus lunch and materials.", sender: "other", timestamp: new Date("2025-01-14T11:30:00"), isRead: true },
+      { id: "8_8", text: "That works for me. Need to see the schedule.", sender: "me", timestamp: new Date("2025-01-14T11:35:00"), isRead: true },
+      { id: "8_9", text: "Sending it now. Morning theory, afternoon practical.", sender: "other", timestamp: new Date("2025-01-14T15:00:00"), isRead: true },
+      { id: "8_10", text: "Looks good. I'll prepare some exercises.", sender: "me", timestamp: new Date("2025-01-14T15:05:00"), isRead: true },
+      { id: "8_11", text: "Great! We have 15 people signed up so far.", sender: "other", timestamp: new Date("2025-01-15T09:00:00"), isRead: true },
+      { id: "8_12", text: "Perfect size. Can bring some of my gear for demo.", sender: "me", timestamp: new Date("2025-01-15T09:05:00"), isRead: true },
+      { id: "8_13", text: "That would be excellent! People love seeing pro equipment.", sender: "other", timestamp: new Date("2025-01-15T09:10:00"), isRead: true },
+      { id: "8_14", text: "I'll bring a variety - wide, telephoto, primes.", sender: "me", timestamp: new Date("2025-01-15T09:15:00"), isRead: true },
+      { id: "8_15", text: "Awesome. Need anything else from our side?", sender: "other", timestamp: new Date("2025-01-15T09:20:00"), isRead: true },
+      { id: "8_16", text: "Projector for slides and whiteboard would help.", sender: "me", timestamp: new Date("2025-01-15T09:25:00"), isRead: true },
+      { id: "8_17", text: "Already set up! We're all ready.", sender: "other", timestamp: new Date("2025-01-15T09:30:00"), isRead: true },
+      { id: "8_18", text: "Perfect. Looking forward to it.", sender: "me", timestamp: new Date("2025-01-15T09:35:00"), isRead: true },
+      { id: "8_19", text: "Me too! This will be our best workshop yet.", sender: "other", timestamp: new Date("2025-01-15T09:40:00"), isRead: true },
+      { id: "8_20", text: "I'll make sure of it. See you then!", sender: "me", timestamp: new Date("2025-01-15T09:45:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-15T09:45:00")
+  },
+  {
+    id: 9,
+    otherPerson: {
+      name: "Michael Brown",
+      avatar: "https://i.pravatar.cc/150?img=19",
+      isOnline: true
+    },
+    messages: [
+      { id: "9_1", text: "Your concert photos are insane! How do you get backstage access?", sender: "other", timestamp: new Date("2025-01-21T22:00:00"), isRead: true },
+      { id: "9_2", text: "Usually through media passes or knowing the band.", sender: "me", timestamp: new Date("2025-01-21T22:05:00"), isRead: true },
+      { id: "9_3", text: "I'd love to shoot concerts. Any advice?", sender: "other", timestamp: new Date("2025-01-21T22:10:00"), isRead: true },
+      { id: "9_4", text: "Start with local bands. Build a portfolio.", sender: "me", timestamp: new Date("2025-01-21T22:15:00"), isRead: true },
+      { id: "9_5", text: "Good idea. What camera settings for fast movement?", sender: "other", timestamp: new Date("2025-01-21T22:20:00"), isRead: true },
+      { id: "9_6", text: "Shutter priority, 1/250 or faster. High ISO.", sender: "me", timestamp: new Date("2025-01-21T22:25:00"), isRead: true },
+      { id: "9_7", text: "And lighting is always changing...", sender: "other", timestamp: new Date("2025-01-21T22:30:00"), isRead: true },
+      { id: "9_8", text: "Yes, shoot in RAW and adjust exposure constantly.", sender: "me", timestamp: new Date("2025-01-21T22:35:00"), isRead: true },
+      { id: "9_9", text: "Makes sense. Lens recommendation?", sender: "other", timestamp: new Date("2025-01-22T10:00:00"), isRead: true },
+      { id: "9_10", text: "24-70mm f/2.8 is versatile. Fast prime for low light.", sender: "me", timestamp: new Date("2025-01-22T10:05:00"), isRead: true },
+      { id: "9_11", text: "I have a 50mm f/1.8. Will that work?", sender: "other", timestamp: new Date("2025-01-22T10:10:00"), isRead: true },
+      { id: "9_12", text: "Perfect for low light! Just move with your feet.", sender: "me", timestamp: new Date("2025-01-22T10:15:00"), isRead: true },
+      { id: "9_13", text: "Got it. Any venues you recommend for beginners?", sender: "other", timestamp: new Date("2025-01-22T10:20:00"), isRead: true },
+      { id: "9_14", text: "Small clubs are best. Less restrictive.", sender: "me", timestamp: new Date("2025-01-22T10:25:00"), isRead: true },
+      { id: "9_15", text: "There's a indie show Friday. Might try there.", sender: "other", timestamp: new Date("2025-01-22T10:30:00"), isRead: true },
+      { id: "9_16", text: "Go for it! Show them your portfolio.", sender: "me", timestamp: new Date("2025-01-22T10:35:00"), isRead: true },
+      { id: "9_17", text: "Will do. Thanks for the encouragement!", sender: "other", timestamp: new Date("2025-01-22T10:40:00"), isRead: true },
+      { id: "9_18", text: "Anytime. Share your shots!", sender: "me", timestamp: new Date("2025-01-22T10:45:00"), isRead: true },
+      { id: "9_19", text: "Definitely! You'll be the first to see.", sender: "other", timestamp: new Date("2025-01-22T10:50:00"), isRead: true },
+      { id: "9_20", text: "Looking forward to it. Break a leg!", sender: "me", timestamp: new Date("2025-01-22T10:55:00"), isRead: true }
+    ],
+    unreadCount: 3,
+    lastActivity: new Date("2025-01-22T10:55:00")
+  },
+  {
+    id: 10,
+    otherPerson: {
+      name: "Isabella Garcia",
+      avatar: "https://i.pravatar.cc/150?img=20",
+      isOnline: false
+    },
+    messages: [
+      { id: "10_1", text: "I'm thinking of switching to mirrorless. Thoughts?", sender: "other", timestamp: new Date("2025-01-23T15:00:00"), isRead: true },
+      { id: "10_2", text: "Great move! Which system are you considering?", sender: "me", timestamp: new Date("2025-01-23T15:05:00"), isRead: true },
+      { id: "10_3", text: "Sony A7 IV or Canon R6. Can't decide.", sender: "other", timestamp: new Date("2025-01-23T15:10:00"), isRead: true },
+      { id: "10_4", text: "Both excellent. What do you shoot mostly?", sender: "me", timestamp: new Date("2025-01-23T15:15:00"), isRead: true },
+      { id: "10_5", text: "Portraits and some video work.", sender: "other", timestamp: new Date("2025-01-23T15:20:00"), isRead: true },
+      { id: "10_6", text: "Sony has better autofocus. Canon has better colors for skin.", sender: "me", timestamp: new Date("2025-01-23T15:25:00"), isRead: true },
+      { id: "10_7", text: "That's the dilemma! I love Canon colors.", sender: "other", timestamp: new Date("2025-01-23T15:30:00"), isRead: true },
+      { id: "10_8", text: "But Sony's eye-AF is unbeatable for portraits.", sender: "me", timestamp: new Date("2025-01-23T15:35:00"), isRead: true },
+      { id: "10_9", text: "Ugh, decisions! Have you used both?", sender: "other", timestamp: new Date("2025-01-23T15:40:00"), isRead: true },
+      { id: "10_10", text: "Yes. Personally prefer Sony for versatility.", sender: "me", timestamp: new Date("2025-01-23T15:45:00"), isRead: true },
+      { id: "10_11", text: "What about lens selection? Canon has more native lenses.", sender: "other", timestamp: new Date("2025-01-23T16:00:00"), isRead: true },
+      { id: "10_12", text: "Sony's selection is now very good too. Third-party options are great.", sender: "me", timestamp: new Date("2025-01-23T16:05:00"), isRead: true },
+      { id: "10_13", text: "True. Sigma and Tamron make great Sony lenses.", sender: "other", timestamp: new Date("2025-01-23T16:10:00"), isRead: true },
+      { id: "10_14", text: "Exactly. And often cheaper than Canon's RF lenses.", sender: "me", timestamp: new Date("2025-01-23T16:15:00"), isRead: true },
+      { id: "10_15", text: "Budget is a factor. Sony might be better then.", sender: "other", timestamp: new Date("2025-01-23T16:20:00"), isRead: true },
+      { id: "10_16", text: "Try both in store. See which feels better in hand.", sender: "me", timestamp: new Date("2025-01-23T16:25:00"), isRead: true },
+      { id: "10_17", text: "Good advice. Will do that this weekend.", sender: "other", timestamp: new Date("2025-01-23T16:30:00"), isRead: true },
+      { id: "10_18", text: "Let me know what you decide!", sender: "me", timestamp: new Date("2025-01-23T16:35:00"), isRead: true },
+      { id: "10_19", text: "I will! Thanks for the detailed help.", sender: "other", timestamp: new Date("2025-01-23T16:40:00"), isRead: true },
+      { id: "10_20", text: "Anytime! Happy to help a fellow photographer.", sender: "me", timestamp: new Date("2025-01-23T16:45:00"), isRead: true }
+    ],
+    unreadCount: 0,
+    lastActivity: new Date("2025-01-23T16:45:00")
+  }
+]
