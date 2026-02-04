@@ -14,7 +14,7 @@
   color-scheme: dark;
 }
 @theme{
-  --font-roboto : Roboto, "sans-serif" ;
+  --font-roboto : Roboto;
   --color-primary: #007bff; /* A custom blue */
   --color-secondary: #9198a1; 
   --color-custom-gray-border2: #f7f7f7; /* A custom gray */

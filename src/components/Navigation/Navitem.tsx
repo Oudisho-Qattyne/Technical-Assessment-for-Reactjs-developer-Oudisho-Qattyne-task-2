@@ -2,7 +2,6 @@ import type { IconType } from "react-icons";
 import { useNavigate } from "react-router";
 
 export interface NavitemProps {
-  title: string;
   Icon: IconType;
   goTo: string;
   isActive?: boolean;
@@ -10,7 +9,6 @@ export interface NavitemProps {
 }
 
 const Navitem = ({
-  title,
   Icon,
   goTo,
   isActive = false,
@@ -30,7 +28,7 @@ const Navitem = ({
       className="relative w-1/5 flex justify-center items-center cursor-pointer"
       onClick={handleClick}
     >
-      <div className="relative z-10 flex flex-col items-center justify-center py-4 transition-all duration-300">
+      <div className={`relative w-full z-10 flex flex-col items-center justify-center p-4 transition-all duration-300 ${  !isActive && `hover:bg-secondary rounded-full focus:ring-offset-primary`}`}>
         <Icon 
           className={`text-2xl transition-colors duration-300 ${
             isActive ? "text-white" : "text-black"

@@ -42,7 +42,7 @@ const Navbar = ({ navitems }: NavbarProps) => {
   return (
     <div className="relative bg-white w-full h-20 flex flex-row items-center px-1 border-t border-t-secondary bottom-0">
       <div 
-        className={`absolute h-12 rounded-full transition-all duration-500 ease-in-out bg-linear-to-tr from-[#FF4D00] to-[#FF00D6] ${isAnimating ? getAnimationClass() : ''}`}
+        className={`absolute h-14 rounded-full transition-all duration-500 ease-in-out bg-linear-to-tr from-[#FF4D00] to-[#FF00D6] ${isAnimating ? getAnimationClass() : ''}`}
         style={{
           width: `${100 / navitems.length}%`,
           left: `${backgroundPosition}%`,
